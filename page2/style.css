@@ -1,0 +1,84 @@
+#image {
+	background-image:url(../images/bakubackground2.png);
+	background-repeat:no-repeat;
+	background-position: center;
+    background-size: cover;
+    position:relative;
+    height:930px;
+    width:1600px;
+    display:inline-block;
+}
+p {
+	color: blue;
+}
+body {
+	background-color: gold;
+}
+#END {
+	background-color:blue;
+	padding:20px;
+	border-radius:5%;
+	text-decoration:none;
+	transition:1s;
+	color:red;
+}
+#end {
+	transform:translate(100px, -850px);
+	display:inline-block;
+}
+#END:hover {
+   border-radius:30%;
+   transition:1s;
+   background-color:red;
+   text-decoration:none;
+   color:blue;
+}
+#REAL{
+	transform:translate(-30px, -750px);
+	display:inline-block;
+}
+#real{
+	background-color:blue;
+	padding:20px;
+	border-radius:5%;
+	text-decoration:none;
+	transition:1s;
+	color:red;
+	animation-name:animacia;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	
+}
+#real:hover {
+   border-radius:30%;
+   transition:1s;
+   background-color:red;
+   text-decoration:none;
+   color:blue;
+   }
+
+   @keyframes animacia {
+   	0%{
+   		background-color:red;
+   	}
+   	25%{
+   		background-color:blue;
+ 	}
+ 	50%{
+ 		background-color:green;
+ 	}
+ 	75%{
+ 		background-color:purple;
+ 	}
+ 	100%{
+ 		background-color: orange;
+ 	}
+   }
+   #car {
+   	width:50px;
+   	height:50px;
+   	display:inline-block;
+   }
+   #car{
+   	position:absolute;
+   }
