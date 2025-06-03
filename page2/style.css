@@ -131,6 +131,7 @@ body {
    	animation-duration:6s;
    	animation-delay:9s;
    	color:green;
+   	background-color:blue;
    }
    @keyframes stupidanimation{
    	0%{
