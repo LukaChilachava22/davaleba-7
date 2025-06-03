@@ -143,8 +143,4 @@ body {
    		opacity:0%;
    	}
    }
-   #audio{
-   	display:inline-block;
-   	position:absolute;
-   	transform:translate(1300px, 300px);
-   }
+   
